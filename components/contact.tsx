@@ -58,12 +58,12 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="john@gmail.com"
+          placeholder="your gmail"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
-          placeholder="nice work boi"
+          placeholder="your message"
           required
           maxLength={5000}
         />
