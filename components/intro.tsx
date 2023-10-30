@@ -30,13 +30,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/image.png"
+              src="/aman3.png"
               alt="Aman kohare"
               width="192"
               height="192"
               quality="95"
               priority={true}
-              className="h-26 w-26 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-[250px] w-[250px] rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
