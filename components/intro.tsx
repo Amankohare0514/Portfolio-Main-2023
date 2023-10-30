@@ -36,12 +36,12 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-30 w-30 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-26 w-26 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
           <motion.span
-            className="absolute bottom-0 right-0 text-6xl"
+            className="absolute bottom-0 right-0 text-5xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
