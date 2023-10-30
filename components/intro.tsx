@@ -10,12 +10,9 @@ import { FaGithubSquare } from "react-icons/fa";
 import {BsInstagram } from "react-icons/bs"
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-
-
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
-
   return (
     <section
       ref={ref}
@@ -34,17 +31,17 @@ export default function Intro() {
           >
             <Image
               src="/image.png"
-              alt="Ricardo portrait"
+              alt="Aman kohare"
               width="192"
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-30 w-30 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
           <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
+            className="absolute bottom-0 right-0 text-6xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -64,9 +61,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hey Everyone I'm Aman.</span> I'm a{" "}
-        <span className="font-bold">Mern-stack developer</span>
-        <span className="font-bold">|</span> React-developer.
+        <span className=" text-5xl font-sans">Aman Kohare</span> <br />
+        <div className="font-thin"> I'm a{" "}
+        <span>MERN Stack developer</span><span>|</span> <span>React developer</span>
+        </div>
       </motion.h1>
 
       <motion.div
