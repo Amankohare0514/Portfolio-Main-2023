@@ -24,8 +24,8 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
-        <div className="bg-[#6c3ff46c] absolute top-[-1rem] -z-20 right-[5rem] h-[280rem] w-[31.25rem] rounded-full blur-[20rem] sm:w-[68.75rem] dark:bg-[#362424]"></div>
-        <div className="bg-[#403af76f] absolute top-[-1rem] -z-20 left-[-35rem] h-[280rem] w-[55rem] rounded-full blur-[20rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#2c294d]"></div>
+        <div className="bg-[#6236e748] absolute top-[-1rem] -z-20 right-[5rem] h-[280rem] w-[31.25rem] rounded-full blur-[20rem] sm:w-[68.75rem] dark:bg-[#362424]"></div>
+        <div className="bg-[#403af751] absolute top-[-1rem] -z-20 left-[-35rem] h-[280rem] w-[55rem] rounded-full blur-[20rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#2c294d]"></div>
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
