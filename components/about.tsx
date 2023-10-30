@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3 text-black text-[20px]">
+      <p className="mb-3 text-black text-[20px] dark:text-white">
       Passionate and Diligent MERN Stack Developer with specialization in
       various popular web technologies. Being an avid learner, I am highly
       adaptable and attentive to detail. <br />
