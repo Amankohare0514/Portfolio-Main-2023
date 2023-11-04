@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "author":"Aman kohare",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.4",
     "@react-email/components": "^0.0.7",
     "@react-email/tailwind": "^0.0.8",
     "@types/node": "20.3.2",
