@@ -18,19 +18,22 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3 text-black text-[20px] dark:text-white">
-      Passionate and Diligent MERN Stack Developer with specialization in
-      various popular web technologies. Being an avid learner, I am highly
-      adaptable and attentive to detail. <br />
-      I'm Aman Kohare From Khargone pursuing Bachelor of Technology (B.Tech)
-       in the field of Information technology from Barkatullah University Bhopal. 
-       I have done my 12th form G.B.H.S.S karhi (khargone) with 55%.
-       My hobby is playing Cricket.
-       <br /><br />
-        <span className="italic">I'm self taught programmer</span>, Who wants to explore the world
-         of this decent and freaky technology.{" "}
-        <span className="font-medium">i am </span>creative and passionate about design and technology
+      <p className="mb-2 text-black text-[16px] dark:text-white text-left">
+      I'm a Mern-stack developer in India. I am creative and passionate about design and technology so I always try to craft great-looking software products.
+        <br /> <br />
+        Pursuing a Bachelor of Technology (B.Tech) in Information Technology from Barkatullah University, Bhopal.
+       <br />
+        A keen interest in playing Cricket.
+        <br /> <br />
+        <span className="underline">Programming Journey:  </span> 
+        I'm a self-taught programmer on a quest to explore the exciting world of technology. My creative spirit is matched only by my dedication to design and technology. 
+        <br />This combination of skills and enthusiasm makes me a valuable asset in the dynamic field of web development.
+        <br />
+        <br /> 
+        And last but not least, please don't hesitate to <span className="text-bold">contact me!</span>
       </p>
+
+
 
     </motion.section>
   );
