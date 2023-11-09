@@ -1,6 +1,6 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
-import imdb from "@/public/imdb.png";
+import student from "@/public/student.png";
 import blogs from "@/public/blogs.png"
 import reform from "@/public/reform.png"
 
@@ -34,7 +34,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Class 10th",
-    location: "Khargone(mp)",
+    location: "Khargone(Mp)",
     description:
       "complete my secondary school from Govt.Boys.H.S.School Karhi-Padliya, Dist Khargone(mp)",
     icon: React.createElement(LuGraduationCap),
@@ -42,15 +42,15 @@ export const experiencesData = [
   },
   {
     title: "Class 12th",
-    location: "Khargone(mp)",
+    location: "Khargone(Mp)",
     description:
     "complete my higher secondary school from Govt.Boys.H.S.School Karhi-Padliya, Dist Khargone(mp)",
     icon: React.createElement(LuGraduationCap),
     date: "2020",
   },
   {
-    title: "B.tech (It)",
-    location: "Bhopal",
+    title: "B.tech (IT)",
+    location: "Bhopal(Mp)",
     description:
       "Currently i'm pursuing Bechlor of technology from Barkatullah University Bhopal |current Year.",
     icon: React.createElement(LuGraduationCap),
@@ -60,11 +60,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "IMDB-clone",
+    title: "Student Management System",
     description:
-      "Recently i've created IMDB clone which show upcoming movies and popular movie and top rated movie.",
-    tags: ["React", "Tailwind", "React-Router-dom" , "API"],
-    imageUrl: imdb,
+      "Developed the front-end of a comprehensive Student Management System, resulting in an intuitive",
+    tags: ["React", "Tailwind", "Redux" , "API"],
+    imageUrl: student,
+    link: "https://github.com/Amankohare0514/Student_Management-System",
   },
   {
     title: "Reform",
@@ -72,6 +73,7 @@ export const projectsData = [
       "Using Reform you can create and share form easily with beautiful webflow prototype feature",
     tags: ["Next.js", "TypeScript", "Tailwind", "Prisma" ,"Shadcn UI" ,"Vercel PostgreSQL"],
     imageUrl: reform,
+    link: "https://github.com/Amankohare0514/Reform",
   },
   {
     title: "Snax Blogs",
@@ -79,6 +81,7 @@ export const projectsData = [
       "Led the development of Snax Blog, a feature-rich blogging website that allows users to create and manage their blogs",
     tags: ["mongoDB", "React.js", "express.js" , "node.js", "Tailwind"],
     imageUrl: blogs,
+    link: "https://github.com/Amankohare0514/full-stack-front-end",
   },
 ] as const;
 
