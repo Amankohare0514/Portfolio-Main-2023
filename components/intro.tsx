@@ -61,7 +61,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className=" text-5xl font-sans">Aman Kohare</span> <br />
+        <span className=" text-5xl font-sans cursor-pointer"> <a href="https://heyamankohare.vercel.app/">Aman Kohare</a></span> <br />
         <div className="font-thin"> I'm a{" "}
         <span>MERN Stack developer</span><span>|</span> <span>React developer</span>
         </div>
