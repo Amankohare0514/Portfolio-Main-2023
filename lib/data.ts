@@ -1,8 +1,8 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import imdb from "@/public/imdb.png";
-import ecommerce from "@/public/ecommerce.png"
-import portfolio from "@/public/portfolio.png"
+import blogs from "@/public/blogs.png"
+import reform from "@/public/reform.png"
 
 export const links = [
   {
@@ -36,7 +36,7 @@ export const experiencesData = [
     title: "Class 10th",
     location: "Khargone(mp)",
     description:
-      "complete my secondary school from Govt.Boys.H.S.School Karhi-Padliya Dist Khargone(mp) | 63%",
+      "complete my secondary school from Govt.Boys.H.S.School Karhi-Padliya, Dist Khargone(mp)",
     icon: React.createElement(LuGraduationCap),
     date: "2018",
   },
@@ -44,7 +44,7 @@ export const experiencesData = [
     title: "Class 12th",
     location: "Khargone(mp)",
     description:
-    "complete my higher secondary school from Govt.Boys.H.S.School Karhi-Padliya Dist Khargone(mp) | 55%",
+    "complete my higher secondary school from Govt.Boys.H.S.School Karhi-Padliya, Dist Khargone(mp)",
     icon: React.createElement(LuGraduationCap),
     date: "2020",
   },
@@ -52,7 +52,7 @@ export const experiencesData = [
     title: "B.tech (It)",
     location: "Bhopal",
     description:
-      "Currently i'm pursuing bechlor of technology from Barkatullah University Bhopal | 8.0/10 in current Year.",
+      "Currently i'm pursuing Bechlor of technology from Barkatullah University Bhopal |current Year.",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - present",
   },
@@ -63,22 +63,22 @@ export const projectsData = [
     title: "IMDB-clone",
     description:
       "Recently i've created IMDB clone which show upcoming movies and popular movie and top rated movie.",
-    tags: ["React", "Tailwind", "React-Router-dom"],
+    tags: ["React", "Tailwind", "React-Router-dom" , "API"],
     imageUrl: imdb,
   },
   {
-    title: "E-commerce websites",
+    title: "Reform",
     description:
-      "E-commerce websites have evolved from basic online storefronts to sophisticated platforms that incorporate cutting-edge technologies.",
-    tags: ["React", "TypeScript", "Tailwind", "Redux" ,"State"],
-    imageUrl: ecommerce,
+      "Using Reform you can create and share form easily with beautiful webflow prototype feature",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Prisma" ,"Shadcn UI" ,"Vercel PostgreSQL"],
+    imageUrl: reform,
   },
   {
-    title: "Portfolio",
+    title: "Snax Blogs",
     description:
-      "I've created my portfolio using html and css and js, which show my all informmation ",
-    tags: ["html", "css", "javaScript" , "bootstarp", ],
-    imageUrl: portfolio,
+      "Led the development of Snax Blog, a feature-rich blogging website that allows users to create and manage their blogs",
+    tags: ["mongoDB", "React.js", "express.js" , "node.js", "Tailwind"],
+    imageUrl: blogs,
   },
 ] as const;
 
@@ -86,16 +86,14 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "React",
+  "React.js",
   "Next.js",
   "Node.js",
-  "Git",
+  "Express.js",
+  "Github",
   "Tailwind",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "C++",
   "DSA",
   "React-Native",
