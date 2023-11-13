@@ -2,6 +2,7 @@ import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import student from "@/public/student.png";
 import blogs from "@/public/blogs.png"
+import theme from "@/public/theme.png";
 import reform from "@/public/reform.png"
 
 export const links = [
@@ -68,20 +69,28 @@ export const projectsData = [
     link: "https://github.com/Amankohare0514/Student_Management-System",
   },
   {
+    title: "Snax Blogs",
+    description:
+      "Led the development of Snax Blog, a feature-rich blogging website that allows users to create and manage their blogs",
+    tags: ["MongoDB", "React.js", "Express.js" , "Node.js", "Tailwind"],
+    imageUrl: blogs,
+    link: "https://github.com/Amankohare0514/full-stack-front-end",
+  },
+  {
     title: "Reform",
     description:
       "Using Reform you can create and share form easily with beautiful webflow prototype feature",
-    tags: ["Next.js", "TypeScript", "Tailwind", "Prisma" ,"Shadcn UI" ,"Vercel PostgreSQL"],
+    tags: ["Next.js", "TypeScript", "Tailwind", "Prisma" ,"Shadcn UI" ,"PostgreSQL"],
     imageUrl: reform,
     link: "https://github.com/Amankohare0514/Reform",
   },
   {
-    title: "Snax Blogs",
+    title: "Snax-Dark-Theme",
     description:
-      "Led the development of Snax Blog, a feature-rich blogging website that allows users to create and manage their blogs",
-    tags: ["mongoDB", "React.js", "express.js" , "node.js", "Tailwind"],
-    imageUrl: blogs,
-    link: "https://github.com/Amankohare0514/full-stack-front-end",
+      "Developed Snax Dark, a sleek and immersive VS Code theme for optimal coding experiences.",
+    tags: ["VsCode" , "Github" , "Marketplace"],
+    imageUrl: theme,
+    link: "https://marketplace.visualstudio.com/items?itemName=AmanKohare5.snax-dark-theme",
   },
 ] as const;
 
