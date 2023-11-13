@@ -10,7 +10,7 @@ export default function MoreBtn() {
       disabled={pending}
     >
       {pending ? (
-        <div className="h-10 w-10 animate-spin rounded-full border-b-2 border-white hover:text-gray-50"></div>
+        <div className="h-10 w-10 animate-spin rounded-full border-b-2 border-white hover:text-gray-50 "></div>
       ) : (
         <a href="https://github.com/Amankohare0514">
              MoreProjects{" "}
