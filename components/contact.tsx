@@ -1,5 +1,5 @@
 "use client";
-
+import Giscus from '@giscus/react';
 import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
@@ -29,10 +29,11 @@ export default function Contact() {
         once: true,
       }}
     >
+      <div>
       <SectionHeading>Contact me</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-      I'm always open to chat, so please don't hesitate contacting me!{" "}
+        I'm always open to chat, so please don't hesitate contacting me!{" "}
         <a className="underline" href="https://mail.google.com/mail/u/0/#inbox?compose=new">
           amankohare@gmail.com
         </a>{" "}
@@ -69,6 +70,24 @@ export default function Contact() {
         />
         <SubmitBtn />
       </form>
+      <div>
+      <Giscus
+        id="comments"
+        repo="amankohare0514/Portfolio-Main-2023"
+        repoId="R_kgDOKNLJ9A"
+        category="Announcements"
+        categoryId="DIC_kwDOKNLJ9M4Ca70G"
+        mapping="pathname"
+        term="Welcome to @giscus/react component!"
+        reactionsEnabled="1"
+        emitMetadata="0"
+        inputPosition="bottom"
+        theme="preferred_color_scheme"
+        lang="en"
+        loading="lazy"
+      />
+      </div>
+      </div>
     </motion.section>
   );
 }
