@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Header from "@/components/header";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -11,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Aman Kohare | Mern Stack developer",
-  description: "Aman kohare a passionate Mern stack developer from India.",
+  description: "Aman Kohare, a passionate Mern stack developer from India.",
 };
 
 export default function RootLayout({
@@ -21,6 +22,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <Head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content={metadata.description} />
+
+        {/* Open Graph meta tags for better sharing on social media */}
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://your-website-url.com" />
+        <meta property="og:image" content="https://your-website-url.com/og-image.jpg" />
+
+        {/* Twitter meta tags for better Twitter card presentation */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@yourTwitterHandle" />
+        <meta name="twitter:title" content={metadata.title} />
+        <meta name="twitter:description" content={metadata.description} />
+        <meta name="twitter:image" content="https://your-website-url.com/twitter-card-image.jpg" />
+      </Head>
+
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
