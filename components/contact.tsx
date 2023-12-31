@@ -70,32 +70,6 @@ export default function Contact() {
           />
           <SubmitBtn />
         </form>
-        <div>
-          <div className="mx-auto p-6 mt-10 bg-white rounded-md shadow-md mb-2">
-            <h2 className="text-2xl font-semibold mb-4 dark:text-black">Comment Section</h2>
-            <p className="text-gray-700 mb-4">
-              Thank you for taking the time to explore my work. Your feedback is valuable to me.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Please log in with your GitHub account to leave a comment. Your insights contribute to the continuous improvement of my projects. Thank you!
-            </p>
-          </div>
-          <Giscus
-            id="comments"
-            repo="amankohare0514/Portfolio-Main-2023"
-            repoId="R_kgDOKNLJ9A"
-            category="Announcements"
-            categoryId="DIC_kwDOKNLJ9M4Ca70G"
-            mapping="pathname"
-            term="Welcome to @giscus/react component!"
-            reactionsEnabled="1"
-            emitMetadata="0"
-            inputPosition="bottom"
-            theme="preferred_color_scheme"
-            lang="en"
-            loading="lazy"
-          />
-        </div>
       </div>
     </motion.section>
   );
